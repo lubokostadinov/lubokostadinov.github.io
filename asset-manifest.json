@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.29207542.chunk.css",
-    "main.js": "/static/js/main.cced5a27.chunk.js",
-    "main.js.map": "/static/js/main.cced5a27.chunk.js.map",
+    "main.js": "/static/js/main.041af32a.chunk.js",
+    "main.js.map": "/static/js/main.041af32a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03a35729.js",
     "runtime-main.js.map": "/static/js/runtime-main.03a35729.js.map",
     "static/css/2.bd084f60.chunk.css": "/static/css/2.bd084f60.chunk.css",
@@ -67,7 +67,7 @@
     "static/media/greenTheme-boy.7d67734f.svg": "/static/media/greenTheme-boy.7d67734f.svg",
     "static/media/greenTheme-girl.b129a68f.svg": "/static/media/greenTheme-girl.b129a68f.svg",
     "static/media/helixCore-blue.3640366e.svg": "/static/media/helixCore-blue.3640366e.svg",
-    "static/media/landingImg.39a47e5d.jpg": "/static/media/landingImg.39a47e5d.jpg",
+    "static/media/landingImg.4429912a.jpg": "/static/media/landingImg.4429912a.jpg",
     "static/media/lightBlueTheme-boy.8c01f110.svg": "/static/media/lightBlueTheme-boy.8c01f110.svg",
     "static/media/lyubomir_kostadinov_cv.f5259dd0.pdf": "/static/media/lyubomir_kostadinov_cv.f5259dd0.pdf",
     "static/media/opengl-blue.27c761ab.svg": "/static/media/opengl-blue.27c761ab.svg",
@@ -93,6 +93,6 @@
     "static/css/2.bd084f60.chunk.css",
     "static/js/2.48ca1658.chunk.js",
     "static/css/main.29207542.chunk.css",
-    "static/js/main.cced5a27.chunk.js"
+    "static/js/main.041af32a.chunk.js"
   ]
 }
