@@ -4,7 +4,7 @@ export const educationData = [
     institution: 'Breda University of Applied Sciences, the Netherlands',
     course: 'Bachelor Creative Media and Game Techologies (programming track)',
     startYear: '2020',
-    endYear: 'Present',
+    endYear: '2024',
   },
   {
     id: 2,

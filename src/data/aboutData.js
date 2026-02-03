@@ -1,8 +1,7 @@
 export const aboutData = {
   title: 'About me',
   description1:
-    'I am currently studying game programming at Breda University. During my studies, I have gained knowledge and practical experience in programming with C/C++, OpenGL, DirectX 12, and the agile methodologies.',
-    description2:
-    'My main interest is in graphics and backend programming. I am looking forward to find an internship position, where I can continue learning from more experienced programmers.',
+    'C/C++ programmer with game engine development experience and a passion for low-level systems and performance. I’ve implemented core game subsystems on Windows and MacOS, including input handling, audio, physics, rendering, and resource allocators using GPU APIs.',
+  description2: '',
   image: 1,
 };
