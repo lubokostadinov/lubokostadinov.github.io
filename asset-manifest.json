@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.29207542.chunk.css",
-    "main.js": "/static/js/main.041af32a.chunk.js",
-    "main.js.map": "/static/js/main.041af32a.chunk.js.map",
+    "main.js": "/static/js/main.252fdb98.chunk.js",
+    "main.js.map": "/static/js/main.252fdb98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03a35729.js",
     "runtime-main.js.map": "/static/js/runtime-main.03a35729.js.map",
     "static/css/2.bd084f60.chunk.css": "/static/css/2.bd084f60.chunk.css",
@@ -69,7 +69,7 @@
     "static/media/helixCore-blue.3640366e.svg": "/static/media/helixCore-blue.3640366e.svg",
     "static/media/landingImg.4429912a.jpg": "/static/media/landingImg.4429912a.jpg",
     "static/media/lightBlueTheme-boy.8c01f110.svg": "/static/media/lightBlueTheme-boy.8c01f110.svg",
-    "static/media/lyubomir_kostadinov_cv.f5259dd0.pdf": "/static/media/lyubomir_kostadinov_cv.f5259dd0.pdf",
+    "static/media/lyubomir_kostadinov_cv.0048b936.pdf": "/static/media/lyubomir_kostadinov_cv.0048b936.pdf",
     "static/media/opengl-blue.27c761ab.svg": "/static/media/opengl-blue.27c761ab.svg",
     "static/media/orangeTheme-boy.cc7bd962.svg": "/static/media/orangeTheme-boy.cc7bd962.svg",
     "static/media/orangeTheme-girl.af6ec93a.svg": "/static/media/orangeTheme-girl.af6ec93a.svg",
@@ -93,6 +93,6 @@
     "static/css/2.bd084f60.chunk.css",
     "static/js/2.48ca1658.chunk.js",
     "static/css/main.29207542.chunk.css",
-    "static/js/main.041af32a.chunk.js"
+    "static/js/main.252fdb98.chunk.js"
   ]
 }
