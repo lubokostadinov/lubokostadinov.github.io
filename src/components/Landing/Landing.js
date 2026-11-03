@@ -118,7 +118,7 @@ function Landing() {
               {headerData.resumePdf && (
                 <a
                   href={headerData.resumePdf}
-                  download="resume"
+                  download="Lyubomir_Kostadinov_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
