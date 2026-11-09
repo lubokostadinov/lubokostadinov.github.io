@@ -42,8 +42,8 @@ export const projectsData = [
     projectDesc:
       'A C++ library and JUCE wrapper for developing audio plugins, with reusable DSP, parameter, and UI components. Its demo project is a wavetable synthesizer with two oscillators, filtering, envelopes, and LFO modulation. A built-in UI editor mode supports editing layouts and saving them as JSON.',
     tags: ['C++', 'JUCE', 'UI Editor'],
-    code: 'https://github.com/lubokostadinov/np_lib',
-    demo: '',
+    code: '',
+    demo: 'https://youtu.be/G8b5P1R1JPc',
     image: npLib,
   },
   {
