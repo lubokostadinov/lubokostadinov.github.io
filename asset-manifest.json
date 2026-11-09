@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e653ae7.chunk.css",
-    "main.js": "/static/js/main.3e4be79f.chunk.js",
-    "main.js.map": "/static/js/main.3e4be79f.chunk.js.map",
+    "main.css": "/static/css/main.34ff29d1.chunk.css",
+    "main.js": "/static/js/main.82c8e771.chunk.js",
+    "main.js.map": "/static/js/main.82c8e771.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03a35729.js",
     "runtime-main.js.map": "/static/js/runtime-main.03a35729.js.map",
     "static/css/2.bd084f60.chunk.css": "/static/css/2.bd084f60.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.be0f9136.chunk.js.map": "/static/js/3.be0f9136.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.bd084f60.chunk.css.map": "/static/css/2.bd084f60.chunk.css.map",
-    "static/css/main.3e653ae7.chunk.css.map": "/static/css/main.3e653ae7.chunk.css.map",
+    "static/css/main.34ff29d1.chunk.css.map": "/static/css/main.34ff29d1.chunk.css.map",
     "static/js/2.48ca1658.chunk.js.LICENSE.txt": "/static/js/2.48ca1658.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/DirectX-blue.54c987d2.svg": "/static/media/DirectX-blue.54c987d2.svg",
@@ -68,9 +68,10 @@
     "static/media/greenTheme-girl.b129a68f.svg": "/static/media/greenTheme-girl.b129a68f.svg",
     "static/media/handmade-vulkan.b8474dd5.jpg": "/static/media/handmade-vulkan.b8474dd5.jpg",
     "static/media/helixCore-blue.3640366e.svg": "/static/media/helixCore-blue.3640366e.svg",
+    "static/media/juce-blue.04d3ed7a.svg": "/static/media/juce-blue.04d3ed7a.svg",
     "static/media/landingImg.4429912a.jpg": "/static/media/landingImg.4429912a.jpg",
     "static/media/lightBlueTheme-boy.8c01f110.svg": "/static/media/lightBlueTheme-boy.8c01f110.svg",
-    "static/media/lyubomir_kostadinov_cv.0048b936.pdf": "/static/media/lyubomir_kostadinov_cv.0048b936.pdf",
+    "static/media/lyubomir_kostadinov_cv.5533fc6f.pdf": "/static/media/lyubomir_kostadinov_cv.5533fc6f.pdf",
     "static/media/np-lib.072468cb.png": "/static/media/np-lib.072468cb.png",
     "static/media/null-rhythm.694f1d3d.png": "/static/media/null-rhythm.694f1d3d.png",
     "static/media/opengl-blue.27c761ab.svg": "/static/media/opengl-blue.27c761ab.svg",
@@ -87,7 +88,9 @@
     "static/media/scrn0000.953759bc.png": "/static/media/scrn0000.953759bc.png",
     "static/media/setsuko.176c29d1.png": "/static/media/setsuko.176c29d1.png",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/stm32-blue.4d36becc.svg": "/static/media/stm32-blue.4d36becc.svg",
     "static/media/unrealEngine-blue.f3e19054.svg": "/static/media/unrealEngine-blue.f3e19054.svg",
+    "static/media/vulkan-blue.55f58561.svg": "/static/media/vulkan-blue.55f58561.svg",
     "static/media/yellowTheme-boy.4579de4e.svg": "/static/media/yellowTheme-boy.4579de4e.svg",
     "static/media/yellowTheme-girl.a7ec3ad5.svg": "/static/media/yellowTheme-girl.a7ec3ad5.svg"
   },
@@ -95,7 +98,7 @@
     "static/js/runtime-main.03a35729.js",
     "static/css/2.bd084f60.chunk.css",
     "static/js/2.48ca1658.chunk.js",
-    "static/css/main.3e653ae7.chunk.css",
-    "static/js/main.3e4be79f.chunk.js"
+    "static/css/main.34ff29d1.chunk.css",
+    "static/js/main.82c8e771.chunk.js"
   ]
 }
