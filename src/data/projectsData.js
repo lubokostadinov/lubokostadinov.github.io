@@ -48,12 +48,12 @@ export const projectsData = [
   },
   {
     id: 9,
-    projectName: 'Handmade Vulkan',
+    projectName: 'Vulkan MacOS',
     projectDesc:
-      'A 3D graphics engine written from scratch in C++ and Vulkan, originally developed on macOS. It loads textured glTF models and renders the Sponza scene with depth testing, first-person camera movement, and a flickering lantern light. The demo was captured using a Linux port running in a virtual machine.',
-    tags: ['C++', 'Vulkan', 'GLSL'],
+      'A Vulkan graphics engine developed in C++ using MoltenVK for macOS. The engine features glTF model loading with textures, point lights, and post-processing for a torch light flicker effect.',
+    tags: ['C++', 'Vulkan', 'MoltenVK'],
     code: 'https://github.com/lubokostadinov/handmade_vulkan',
-    demo: `${process.env.PUBLIC_URL}/videos/handmade-vulkan.mp4`,
+    demo: `${process.env.PUBLIC_URL}/videos/handmade-vulkan.mp4?v=brighter-torch`,
     image: handmadeVulkan,
   },
   {

@@ -16,7 +16,7 @@ bool32 CreateWindow(int16, int16, const char* name, WINDOW_STYLE_FLAGS) {
     return true;
 }
 std::vector<const char*> PlatformExtensions() {
-    CreateWindow(1280, 720, "Handmade Vulkan", 0);
+    CreateWindow(1280, 720, "Vulkan MacOS", 0);
     unsigned count = 0;
     SDL_Vulkan_GetInstanceExtensions(DemoWindow, &count, nullptr);
     std::vector<const char*> extensions(count);

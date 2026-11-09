@@ -1,4 +1,4 @@
-# Handmade Vulkan portfolio recording
+# Vulkan MacOS portfolio recording
 
 The portfolio video is a capture of the original Vulkan renderer and Sponza
 assets from https://github.com/lubokostadinov/handmade_vulkan at commit
@@ -30,8 +30,13 @@ push changes to the original repository.
 
 - SDL2 replaces Cocoa/Metal window and Vulkan surface creation; Apple framework
   headers and portability extensions are removed for the Linux build.
-- The original C++ renderer, geometry, textures, GLSL lighting, and camera
-  movement code are retained. GLSL is compiled to SPIR-V in the VM.
+- The original C++ renderer, geometry, textures, and camera movement code are
+  retained. GLSL is compiled to SPIR-V in the VM.
+- The requested brighter torch follows the camera position exactly. Its intensity
+  is increased from 8 to 48 and quadratic falloff reduced from 0.04 to 0.004.
+  Reinhard tone mapping keeps nearby textures from clipping; the original warm
+  light color, ambient term, and animated flicker are retained. `lighting.py`
+  applies these changes and can also update an already prepared working copy.
 - The starting camera is placed in the Sponza corridor. Scripted key and mouse
   input walks forward, strafes, turns, and looks up using the original controls.
 - Simulation advances at a fixed 1/30 second per rendered frame. Each presented

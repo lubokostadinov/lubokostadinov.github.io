@@ -1,6 +1,7 @@
 """Apply the Linux recording adapter to a fresh handmade_vulkan checkout."""
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 
 root = Path(sys.argv[1]).resolve()
@@ -43,3 +44,4 @@ change('Engine/main.cpp', '        Render(&GameMemory);', '''        Render(&Gam
 change('Engine/main.cpp', '#include <time.h>', '#include <time.h>\n#include "capture_linux.h"')
 shutil.copyfile(Path(__file__).with_name('platform_linux.cpp'), root / 'Engine/platform_linux.cpp')
 shutil.copyfile(Path(__file__).with_name('capture_linux.h'), root / 'Engine/capture_linux.h')
+subprocess.run([sys.executable, str(Path(__file__).with_name('lighting.py')), str(root)], check=True)
