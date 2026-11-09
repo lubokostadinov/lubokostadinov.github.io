@@ -11,6 +11,9 @@ import image3 from '../assets/png/setsuko.png';
 import image4 from '../assets/png/Screenshot (61).png';
 import image5 from '../assets/png/result.png';
 import image6 from '../assets/png/empires.png';
+import nullRhythm from '../assets/png/null-rhythm.png';
+import npLib from '../assets/png/np-lib.png';
+import handmadeVulkan from '../assets/png/handmade-vulkan.jpg';
 
 //import snack from '../assets/svg/projects/snack.svg';
 
@@ -23,6 +26,36 @@ import image6 from '../assets/png/empires.png';
 // import michael from '../assets/svg/projects/michael.svg';
 
 export const projectsData = [
+  {
+    id: 7,
+    projectName: 'Null Rhythm',
+    projectDesc:
+      'An audio plugin for rhythmic tremolo and vibrato, developed in C++ with JUCE. Null Rhythm combines Classic, Euclidean, and Generative patterns with full-band or multiband processing, tempo-synced modulation, and controls for evolving rhythmic movement.',
+    tags: ['C++', 'JUCE', 'Audio DSP'],
+    code: 'https://github.com/lubokostadinov/null_point_audio',
+    demo: 'https://youtu.be/nQvzma4iZYc',
+    image: nullRhythm,
+  },
+  {
+    id: 8,
+    projectName: 'np_lib',
+    projectDesc:
+      'A C++ library and JUCE wrapper for developing audio plugins, with reusable DSP, parameter, and UI components. Its demo project is a wavetable synthesizer with two oscillators, filtering, envelopes, and LFO modulation. A built-in UI editor mode supports editing layouts and saving them as JSON.',
+    tags: ['C++', 'JUCE', 'UI Editor'],
+    code: 'https://github.com/lubokostadinov/np_lib',
+    demo: '',
+    image: npLib,
+  },
+  {
+    id: 9,
+    projectName: 'Handmade Vulkan',
+    projectDesc:
+      'A 3D graphics engine written from scratch in C++ and Vulkan, originally developed on macOS. It loads textured glTF models and renders the Sponza scene with depth testing, first-person camera movement, and a flickering lantern light. The demo was captured using a Linux port running in a virtual machine.',
+    tags: ['C++', 'Vulkan', 'GLSL'],
+    code: 'https://github.com/lubokostadinov/handmade_vulkan',
+    demo: `${process.env.PUBLIC_URL}/videos/handmade-vulkan.mp4`,
+    image: handmadeVulkan,
+  },
   {
     id: 1,
     projectName: 'Descent Raytraced',
