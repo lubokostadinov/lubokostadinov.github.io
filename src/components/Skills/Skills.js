@@ -4,7 +4,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2023-11-15 01:18:55
  */
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Marquee from 'react-fast-marquee';
 
 import './Skills.css';
@@ -15,6 +15,7 @@ import { skillsImage } from '../../utils/skillsImage';
 
 function Skills() {
   const { theme } = useContext(ThemeContext);
+  const [paused, setPaused] = useState(false);
 
   const skillBoxStyle = {
     backgroundColor: theme.secondary,
@@ -34,11 +35,10 @@ function Skills() {
         <div className="skill--scroll">
           <Marquee
             gradient={false}
-            speed={80}
-            // pauseOnHover={true}
-            // pauseOnClick={true}
+            speed={45}
+            pauseOnHover={true}
             delay={0}
-            play={false}
+            play={!paused}
             direction="left"
           >
             {skillsData.map((skill, id) => (
@@ -56,6 +56,15 @@ function Skills() {
           </Marquee>
         </div>
       </div>
+      <button
+        type="button"
+        className="skillsMotionToggle"
+        style={{ color: theme.primary }}
+        aria-pressed={paused}
+        onClick={() => setPaused(!paused)}
+      >
+        {paused ? 'Resume skills' : 'Pause skills'}
+      </button>
     </div>
   );
 }

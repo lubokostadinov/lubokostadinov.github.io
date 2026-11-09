@@ -83,6 +83,9 @@ import opengl from '../assets/svg/skills/opengl-blue.svg';
 import helixcore from '../assets/svg/skills/helixCore-blue.svg';
 import unrealengine from '../assets/svg/skills/unrealEngine-blue.svg';
 import jira from '../assets/svg/skills/Jira-blue.svg';
+import vulkan from '../assets/svg/skills/vulkan-blue.svg';
+import juce from '../assets/svg/skills/juce-blue.svg';
+import stm32 from '../assets/svg/skills/stm32-blue.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -101,6 +104,12 @@ export const skillsImage = (skill) => {
     skill = directx;
   } else if (skillID === 'opengl') {
     skill = opengl;
+  } else if (skillID === 'vulkan') {
+    skill = vulkan;
+  } else if (skillID === 'juce library') {
+    skill = juce;
+  } else if (skillID === 'stm32') {
+    skill = stm32;
   } else if (skillID === 'helix core') {
     skill = helixcore;
     isInverted = true;
