@@ -32,13 +32,13 @@ export const projectsData = [
     projectDesc:
       'An audio plugin for rhythmic tremolo and vibrato, developed in C++ with JUCE. Null Rhythm combines Classic, Euclidean, and Generative patterns with full-band or multiband processing, tempo-synced modulation, and controls for evolving rhythmic movement.',
     tags: ['C++', 'JUCE', 'Audio DSP'],
-    code: 'https://github.com/lubokostadinov/null_point_audio',
+    code: 'https://nullpoint-audio.com/null-rhythm.html',
     demo: 'https://youtu.be/nQvzma4iZYc',
     image: nullRhythm,
   },
   {
     id: 8,
-    projectName: 'np_lib',
+    projectName: 'Wavetable Synth',
     projectDesc:
       'A C++ library and JUCE wrapper for developing audio plugins, with reusable DSP, parameter, and UI components. Its demo project is a wavetable synthesizer with two oscillators, filtering, envelopes, and LFO modulation. A built-in UI editor mode supports editing layouts and saving them as JSON.',
     tags: ['C++', 'JUCE', 'UI Editor'],
